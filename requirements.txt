@@ -1,0 +1,5 @@
+click>=8.1.7
+transformers>=4.44.0
+torch>=2.3.0; platform_system != "Darwin" or platform_machine != "arm64"
+sentence-transformers>=2.7.0 # optional for HyDE + dedupe
+
